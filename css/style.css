@@ -1,6 +1,7 @@
 .body{
     display: flex;
     flex-direction: column;
+    gap:20px;
     
 }
 .section-1{
@@ -56,4 +57,40 @@ ul, .secondary-text{
     border-style: double;
     font-size: 18px;
     
+}
+.section-2{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+.container{
+    display: flex;
+    gap:45px;
+    justify-content: center;
+
+}
+.container img{
+    height: 250px;
+    width: 300px;
+    border-radius: 10%;
+    border-color:#3882F6 ;
+    border-style: solid;
+}
+.sample-temps{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1f2937;
+
+}
+.text-1{
+    text-align: center;
+    text-wrap: wrap;
+    font-size: large;
+   
+    
+}
+.section-3{
+    background-color: #e5e7eb;
 }
